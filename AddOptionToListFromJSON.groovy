@@ -12,7 +12,7 @@ log.error "Début de Traitement"
 
 //REST API call
 // Si l'adresse vient à changer il faut la changer ici
-def http = new HTTPBuilder('http://intranet-mediation.oceanie.local/api/projet/CM/2021')
+def http = new HTTPBuilder('http://someURLWithData')
 def response = http.request(GET, TEXT) {
     // utilisez un admin pour la connexion ou un agent Solution
     requestContentType = JSON
